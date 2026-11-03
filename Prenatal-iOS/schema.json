@@ -1,0 +1,302 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dkabot.com/session-v1.schema",
+  "title": "Article",
+  "description": "A session that can be rendered by the Prenatal app",
+  "type": "object",
+  "properties": {
+    "uuid": {
+      "description": "The unique identifier for a session",
+      "type": "string",
+      "format": "uuid"
+    },
+    "title": {
+      "description": "The user-facing title of a session",
+      "type": "string",
+      "minLength": 1
+    },
+    "pages": {
+      "description": "The individual pages that make up a session",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/sessionPage"
+      }
+    }
+  },
+  "required": [ "uuid", "title", "pages" ],
+  "$defs": {
+    "sessionPage": {
+        "type": "object",
+        "properties": {
+            "pageNumber": {
+                "description": "The 1-indexed page number this page represents",
+                "type": "integer"
+            },
+            "audio": {
+                "description": "The file name for an audio file that plays when listening to a page",
+                "type": "string"
+            },
+            "progress": {
+                "description": "The percentage progress (0-100) into the session that a page indicates",
+                "type": "number"
+            },
+            "blocks": {
+              "description": "The individual components that make up a page",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/pageBlock"
+              }
+            },
+            "actionButton": {
+                "$ref": "#/$defs/actionButton"
+            }
+        },
+        "required": [ "pageNumber", "audio", "progress", "blocks", "actionButton" ],
+        "additionalProperties": false
+    },
+    "actionButton": {
+        "description": "The action button(s) that appear underneath a page",
+        "type": "object",
+        "properties": {
+            "type": {
+                "description": "The type of navigation button(s) this ActionButton will render",
+                "type": "string",
+                "enum": [
+                    "next",
+                    "skipOrNext",
+                    "customOrNext",
+                    "custom",
+                    "finish"
+                ]
+            },
+            "text": {
+                "description": "The text that will be displayed on the primary (right) rendered button",
+                "type": "string"
+            },
+            "destination": {
+                "description": "The page the primary (right) button will load on press, if *custom",
+                "type": "integer"
+            },
+            "customText": {
+                "description": "The text that will be displayed on the secondary (left) rendered button, if customOr*",
+                "type": "string"
+            },
+            "customDestination": {
+                "description": "The page the secondary (left) button will load on press, if customOr*",
+                "type": "integer"
+            },
+            "subscript": {
+                "description": "Text that will be displayed under the button(s), if present",
+                "type": "string"
+            }
+        },
+        "required": [ "type", "text" ],
+        "maxProperties": 6
+    },
+    "pageBlock": {
+      "description": "A single component that partially makes up a page",
+      "type": "object",
+      "properties": {
+        "text": {
+          "description": "Renders as markdown-flavored text",
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "string"
+            }
+          },
+          "required": [ "data" ],
+          "maxProperties": 1
+        },
+        "title": {
+          "description": "Renders as markdown-flavored text, in title variant",
+          "type": "object",
+          "properties": {
+            "data": {
+              "type": "string"
+            }
+          },
+          "required": [ "data" ],
+          "maxProperties": 1
+        },
+        "image": {
+          "description": "Renders as an image",
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [ "name" ],
+          "maxProperties": 1
+        },
+        "list": {
+          "description": "Renders as an optionally-bulleted sequence of grouped items",
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "bullet",
+                "decimal",
+                "none"
+              ]
+            },
+            "elements": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/pageBlock"
+              }
+            }
+          },
+          "required": [ "type", "elements" ],
+          "maxProperties": 2
+        },
+        "horizontalRule": {
+          "description": "Renders as a horizontal rule",
+          "type": "object",
+          "maxProperties": 0
+        },
+        "boxedText": {
+          "description": "Renders as markdown-flavored text inside of a color-filled box",
+          "type": "object",
+          "properties": {
+            "backgroundColor": {
+              "type": "string"
+            },
+            "data": {
+              "type": "string"
+            }
+          },
+          "required": [ "backgroundColor", "data" ],
+          "maxProperties": 2
+        },
+        "chips": {
+          "description": "Renders as multiple screen-wrapping individual selectable buttons",
+          "type": "object",
+          "properties": {
+            "multiSelect": {
+              "type": "boolean"
+            },
+            "savedName": {
+              "type": "string"
+            },
+            "choices": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                type: "string"
+              }
+            }
+          },
+          "required": [ "multiSelect", "savedName", "choices" ],
+          "maxProperties": 3
+        },
+        "input": {
+          "description": "Renders as a free-entry text box where a user can write",
+          "type": "object",
+          "properties": {
+            "size": {
+              "type": "string"
+            },
+            "savedName": {
+              "type": "string"
+            },
+            "watermark": {
+              "type": "string"
+            }
+          },
+          "required": [ "size", "savedName", "watermark" ],
+          "maxProperties": 3
+        },
+        "accordion": {
+          "description": "Renders as multiple buttons followed by grouped items depending on selection",
+          "type": "object",
+          "properties": {
+            "choices": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/accordionChoice"
+              }
+            },
+            "defaultElements": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/pageBlock"
+              }
+            }
+          },
+          "required": [ "choices" ],
+          "maxProperties": 2
+        },
+        "navigationButton": {
+            "description": "Renders as a standalone button akin to the ActionButton, but mid-page",
+            "type": "object",
+            "properties": {
+                "text": {
+                    "type": "string"
+                },
+                "destination": {
+                    "type": "integer"
+                }
+            },
+            "required": [ "text", "destination" ],
+            "maxProperties": 2
+        },
+        "showIfSaved": {
+            "description": "Renders as grouped items, if the specified saved item keys exist",
+            "type": "object",
+            "properties": {
+                "check": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    type: "string"
+                  }
+                },
+                "elements": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "$ref": "#/$defs/pageBlock"
+                  }
+                }
+            },
+            "required": [ "check", "elements" ],
+            "maxProperties": 2
+        }
+      },
+      "minProperties": 1,
+      "maxProperties": 1,
+      "additionalProperties": false
+    },
+    "accordionChoice": {
+        "type": "object",
+        "properties": {
+            "icon": {
+                "description": "The file name for an image file that this choice will show as an icon",
+                "type": "string"
+            },
+            "label": {
+                "description": "The text that will be displayed on this choice button, under the icon",
+                "type": "string"
+            },
+            "elements": {
+              "description": "The blocks that will be shown if this choice is selected",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/pageBlock"
+              }
+            }
+        },
+        "required": [ "icon", "label", "elements" ],
+        "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,1030 @@
+{
+    "uuid": "76f4b4c4-757c-408a-b250-9e2be084ee6f",
+    "title": "Building Safe Beginnings",
+    "pages": [
+        {
+            "pageNumber": 1,
+            "audio": "FILLER.mp3",
+            "progress": 1,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_1"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "Welcome to the program"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Over the next 8 weeks, you will learn about your baby, your needs, and safe ways to care for you infant."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Today is about your story and the parent you want to be."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Start the program"
+            }
+        },
+        {
+            "pageNumber": 2,
+            "audio": "FILLER.mp3",
+            "progress": 4,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_2"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "Your program at a glance"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "There are 16 short sessions over 8 weeks."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "You will learn about baby cues, your needs, safe care, and getting help."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Next"
+            }
+        },
+        {
+            "pageNumber": 3,
+            "audio": "FILLER.mp3",
+            "progress": 8,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_3"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "What we will do today"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Today, you will think about your story and what feels familiar."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "You will choose what to keep and what you want to change."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Next"
+            }
+        },
+        {
+            "pageNumber": 4,
+            "audio": "FILLER.mp3",
+            "progress": 12,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_4"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "Your story, your parenting path"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Your past is only part of your story."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "You choose what to carry forward and what to do differently."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Begin Session 1",
+                "subscript": "You choose what to share."
+            }
+        },
+        {
+            "pageNumber": 5,
+            "audio": "FILLER.mp3",
+            "progress": 16,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_5"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "You are in control"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "You can read, listen, skip, pause, or come back later."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "You can use this program without sharing private details about your past."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "I understand"
+            }
+        },
+        {
+            "pageNumber": 6,
+            "audio": "FILLER.mp3",
+            "progress": 20,
+            "blocks": [
+                {
+                    "text": {
+                        "data": "Checking in can help you notice what you may need today."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "What is one word for how you feel right now?"
+                    }
+                },
+                {
+                    "chips": {
+                        "multiSelect": false,
+                        "savedName": "emotional_feeling_chip",
+                        "choices": [
+                            "calm", "frustrated", "tired", "scared", "excited", "hopeful", "confused", "happy", "other"
+                        ]
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "skipOrNext",
+                "text": "Continue"
+            }
+        },
+        {
+            "pageNumber": 7,
+            "audio": "FILLER.mp3",
+            "progress": 24,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_7"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "A fresh start"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "You may think about the care you got as a child. You may also think about the care you want to give."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Keep going"
+            }
+        },
+        {
+            "pageNumber": 8,
+            "audio": "FILLER.mp3",
+            "progress": 28,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_8"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "Pregnancy brings change"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Your body is changing. Your feelings,relationships, and ideas about family may change too."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Pregnancy can be a time to think about what you want for yourself and your baby. You can keep what helps and try something new in place of something you find less helpful."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Next"
+            }
+        },
+        {
+            "pageNumber": 9,
+            "audio": "FILLER.mp3",
+            "progress": 32,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_9"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "Your story can change"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Your past may shape what feels familiar."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "It does not decide how you will parent."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "You can learn new ways to care."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "I want to keep going"
+            }
+        },
+        {
+            "pageNumber": 10,
+            "audio": "FILLER.mp3",
+            "progress": 36,
+            "blocks": [
+                {
+                    "accordion": {
+                        "choices": [
+                            {
+                                "icon": "",
+                                "label": "Needs",
+                                "elements": [
+                                    {
+                                        "title": {
+                                            "data": "What we learned in childhood"
+                                        }
+                                    },
+                                    {
+                                        "text": {
+                                            "data": "The adults who cared for us taught us what happens when we need care, comfort, help, or have big feelings. Tap a card to reflect."
+                                        }
+                                    },
+                                    {
+                                        "title": {
+                                            "data": "Needs"
+                                        }
+                                    },
+                                    {
+                                        "text": {
+                                            "data": "Did someone notice when you were hungry, tired, hurt, or scared?"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "icon": "",
+                                "label": "Comfort",
+                                "elements": [
+                                    {
+                                        "title": {
+                                            "data": "What we learned in childhood"
+                                        }
+                                    },
+                                    {
+                                        "text": {
+                                            "data": "The adults who cared for us taught us what happens when we need care, comfort, help, or have big feelings. Tap a card to reflect."
+                                        }
+                                    },
+                                    {
+                                        "title": {
+                                            "data": "Comfort"
+                                        }
+                                    },
+                                    {
+                                        "text": {
+                                            "data": "Did comfort feel safe, available, or hard to trust?"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "icon": "",
+                                "label": "Help",
+                                "elements": [
+                                    {
+                                        "title": {
+                                            "data": "What we learned in childhood"
+                                        }
+                                    },
+                                    {
+                                        "text": {
+                                            "data": "The adults who cared for us taught us what happens when we need care, comfort, help, or have big feelings. Tap a card to reflect."
+                                        }
+                                    },
+                                    {
+                                        "title": {
+                                            "data": "Help"
+                                        }
+                                    },
+                                    {
+                                        "text": {
+                                            "data": "Was asking for help welcomed, ignored, or punished?"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "icon": "",
+                                "label": "Big Emotions",
+                                "elements": [
+                                    {
+                                        "title": {
+                                            "data": "What we learned in childhood"
+                                        }
+                                    },
+                                    {
+                                        "text": {
+                                            "data": "The adults who cared for us taught us what happens when we need care, comfort, help, or have big feelings. Tap a card to reflect."
+                                        }
+                                    },
+                                    {
+                                        "title": {
+                                            "data": "Big Emotions"
+                                        }
+                                    },
+                                    {
+                                        "text": {
+                                            "data": "Were big feelings met with calm, fear, anger, or silence?"
+                                        }
+                                    }
+                                ]
+                            }
+                        ],
+                        "defaultElements": [
+                            {
+                                "title": {
+                                    "data": "What we learned in childhood"
+                                }
+                            },
+                            {
+                                "text": {
+                                    "data": "The adults who cared for us taught us what happens when we need care, comfort, help, or have big feelings. Tap a card to reflect."
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Reflect"
+            }
+        },
+        {
+            "pageNumber": 11,
+            "audio": "FILLER.mp3",
+            "progress": 40,
+            "blocks": [
+                {
+                    "title": {
+                        "data": "Want to write something down?"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "If you want, write a few words about what you noticed. You can skip this."
+                    }
+                },
+                {
+                    "input": {
+                        "size": "large",
+                        "savedName": "needs_noticed_input",
+                        "watermark": "Type here..."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "skipOrNext",
+                "text": "Save my note"
+            }
+        },
+        {
+            "pageNumber": 12,
+            "audio": "FILLER.mp3",
+            "progress": 44,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_12"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "You can build skills"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "This program helps you learn and plan for hard moments."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "It is not here to label you or scare you."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Continue"
+            }
+        },
+        {
+            "pageNumber": 13,
+            "audio": "FILLER.mp3",
+            "progress": 48,
+            "blocks": [
+                {
+                    "title": {
+                        "data": "When I think about becoming a parent, I feel..."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Choose what fits best right now. Mixed feelings are common."
+                    }
+                },
+                {
+                    "chips": {
+                        "multiSelect": true,
+                        "savedName": "parental_feeling_chip",
+                        "choices": [
+                            "hopeful", "nervous", "excited", "mixed", "numb", "frustrated", "not sure", "happy", "other"
+                        ]
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "skipOrNext",
+                "text": "Continue"
+            }
+        },
+        {
+            "pageNumber": 14,
+            "audio": "FILLER.mp3",
+            "progress": 52,
+            "blocks": [
+                {
+                    "title": {
+                        "data": "A message I learned"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "As children, we learn messages about feelings, needs, care, and asking for help."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Think of one message. Would you keep it, change it, or leave it behind?"
+                    }
+                },
+                {
+                    "chips": {
+                        "multiSelect": false,
+                        "savedName": "",
+                        "choices": [
+                            "Carry forward", "Change", "Leave behind"
+                        ]
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Continue"
+            }
+        },
+        {
+            "pageNumber": 15,
+            "audio": "FILLER.mp3",
+            "progress": 56,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_15"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "What do you want to carry forward?"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Some parts of your story may feel helpful. Other parts may not."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "You can carry forward the care that felt safe and choose a different way when you want to. There is no right answer today."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Next"
+            }
+        },
+        {
+            "pageNumber": 16,
+            "audio": "FILLER.mp3",
+            "progress": 60,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_16"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "Looking back can bring up feelings"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "You may feel calm, sad, angry, confused, or something else. You may feel nothing right now."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Any of these reactions can happen."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Next"
+            }
+        },
+        {
+            "pageNumber": 17,
+            "audio": "FILLER.mp3",
+            "progress": 64,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_17"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "You choose the pace"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "If something feels like too much, you can pause, skip it, or stop for today."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "You can come back later or talk with someone you trust."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Keep going"
+            }
+        },
+        {
+            "pageNumber": 18,
+            "audio": "FILLER.mp3",
+            "progress": 68,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_18"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "Stress can come up during pregnancy"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Pregnancy changes your body and your daily life. Thinking about becoming a parent may also bring up old memories or worries."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Noticing stress early can help you choose what you need next."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Next"
+            }
+        },
+        {
+            "pageNumber": 19,
+            "audio": "FILLER.mp3",
+            "progress": 72,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_19"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "A skill for stressful moments"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "When stress starts to rise, a short pause can help you notice what is happening before you act."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Next, you will learn a tool called Pause and Name."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Learn the skill"
+            }
+        },
+        {
+            "pageNumber": 20,
+            "audio": "FILLER.mp3",
+            "progress": 76,
+            "blocks": [
+                {
+                    "boxedText": {
+                        "backgroundColor": "COLOR",
+                        "data": "Pause and Name"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "When stress rises:"
+                    }
+                },
+                {
+                    "list": {
+                        "type": "decimal",
+                        "elements": [
+                            {
+                                "text": {
+                                    "data": "Stop for a moment."
+                                }
+                            },
+                            {
+                                "text": {
+                                    "data": "Notice your body."
+                                }
+                            },
+                            {
+                                "text": {
+                                    "data": "Name it: \"I feel tense.\""
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "image": {
+                        "name": "pause_and_name_1"
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Start with Pause"
+            }
+        },
+        {
+            "pageNumber": 21,
+            "audio": "FILLER.mp3",
+            "progress": 80,
+            "blocks": [
+                {
+                    "boxedText": {
+                        "backgroundColor": "COLOR",
+                        "data": "Pause and Name: Pause"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Stop for one moment. You do not need to fix anything yet. If it feels safe, let your body be still."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Examples of a pause:"
+                    }
+                },
+                {
+                    "image": {
+                        "name": "pause_and_name_2"
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Next: Notice"
+            }
+        },
+        {
+            "pageNumber": 22,
+            "audio": "FILLER.mp3",
+            "progress": 84,
+            "blocks": [
+                {
+                    "boxedText": {
+                        "backgroundColor": "COLOR",
+                        "data": "Pause and Name: Notice"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Notice what your body is doing."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Examples of body signals:"
+                    }
+                },
+                {
+                    "image": {
+                        "name": "pause_and_name_3"
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Next: Name It"
+            }
+        },
+        {
+            "pageNumber": 23,
+            "audio": "FILLER.mp3",
+            "progress": 88,
+            "blocks": [
+                {
+                    "boxedText": {
+                        "backgroundColor": "COLOR",
+                        "data": "Pause and Name: Name It"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Use simple words for what you notice. You might say, \"I feel tense,\" \"I feel worried,\" or \"I feel frustrated.\""
+                    }
+                },
+                {
+                    "image": {
+                        "name": "pause_and_name_4"
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "next",
+                "text": "Next: Try It Now"
+            }
+        },
+        {
+            "pageNumber": 24,
+            "audio": "FILLER.mp3",
+            "progress": 92,
+            "blocks": [
+                {
+                    "boxedText": {
+                        "backgroundColor": "COLOR",
+                        "data": "Pause and Name: Try It"
+                    }
+                },
+                {
+                    "list": {
+                        "type": "decimal",
+                        "elements": [
+                            {
+                                "text": {
+                                    "data": "Pause for one moment."
+                                }
+                            },
+                            {
+                                "text": {
+                                    "data": "Notice one signal in your body."
+                                }
+                            },
+                            {
+                                "text": {
+                                    "data": "Name it: \"I feel ____.\""
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text": {
+                        "data": "**Optional: Type one word**"
+                    }
+                },
+                {
+                    "input": {
+                        "size": "small",
+                        "savedName": "needs_noticed_input",
+                        "watermark": "I feel..."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "skipOrNext",
+                "text": "Done"
+            }
+        },
+        {
+            "pageNumber": 25,
+            "audio": "FILLER.mp3",
+            "progress": 96,
+            "blocks": [
+                {
+                    "title": {
+                        "data": "Caring for you counts"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Caring for yourself is part of caring for your baby."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "What is one small need you can notice today?"
+                    }
+                },
+                {
+                    "chips": {
+                        "multiSelect": false,
+                        "savedName": "need_noticed_chip",
+                        "choices": [
+                            "food", "water", "meds", "rest", "appointment", "support", "not sure", "other"
+                        ]
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "skipOrNext",
+                "text": "Pick One Need"
+            }
+        },
+        {
+            "pageNumber": 26,
+            "audio": "FILLER.mp3",
+            "progress": 98,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_26"
+                    }
+                },
+                {
+                    "title": {
+                        "data": "Your story keeps growing"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Your past is part of your story."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "You can carry forward what helps. You can choose a different way when you want to."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "customOrNext",
+                "text": "Finish Session",
+                "customText": "Review My Choices",
+                "customDestination": 28
+            }
+        },
+        {
+            "pageNumber": 27,
+            "audio": "FILLER.mp3",
+            "progress": 100,
+            "blocks": [
+                {
+                    "image": {
+                        "name": "graphic_page_27"
+                    }
+                },
+                {
+                    "title": {
+                        "data": ""
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Next time, we will learn what babies need and how they show it."
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "finish",
+                "text": "Continue"
+            }
+        },
+        {
+            "pageNumber": 28,
+            "audio": "FILLER.mp3",
+            "progress": 99,
+            "blocks": [
+                {
+                    "title": {
+                        "data": "Your Session 1 plan"
+                    }
+                },
+                {
+                    "text": {
+                        "data": "Today you thought about your story, named a feeling and a need, and practiced pausing."
+                    }
+                },
+                {
+                    "text": {
+                        "data": "You can review or change your choices."
+                    }
+                },
+                {
+                    "showIfSaved": {
+                        "check": [
+                            "need_noticed_chip"
+                        ],
+                        "elements": [
+                            {
+                                "navigationButton": {
+                                    "text": "Your selected need: #need_noticed_chip",
+                                    "destination": 25
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "navigationButton": {
+                        "text": "Reminder: Pause and Name",
+                        "destination": 20
+                    }
+                }
+            ],
+            "actionButton": {
+                "type": "custom",
+                "text": "Finish Session",
+                "destination": 27
+            }
+        }
+    ]
+}
