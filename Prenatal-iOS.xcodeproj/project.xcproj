@@ -28,7 +28,7 @@
   "files": [
     { "path": "schema.json", "target-membership": [ "Prenatal-iOS/resources" ] },
     { "kind": "folder", "path": "Prenatal-iOS", "target-membership": [ "Prenatal-iOS" ] },
-    { "path": "<PROJECT>/../README.md", "target-membership": [ "Prenatal-iOS/resources" ] },
+    { "path": "README.md", "target-membership": [ "Prenatal-iOS/resources" ] },
     {
       "kind": "group",
       "name": "Products",
